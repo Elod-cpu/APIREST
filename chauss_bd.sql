@@ -8,7 +8,7 @@ SELECT User, Host FROM mysql.user;
 
 
 CREATE TABLE clients(
-    clientID int NOT NULL,
+    clientID int NOT NULLAUTO_INCREMENT,
     OrderNumber int NOT NULL,
     nom VARCHAR (150) NOT NULL,
     prenom VARCHAR (75) NOT NULL,
